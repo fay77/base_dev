@@ -11,8 +11,6 @@
 
 ## demo
 
-gradle相关配置已按**Android Studio3.0**的要求进行更改，如果你使用的是as3.0以下的版本，需要调整下gradle配置。<br><br>
-
 >demo大致的流程如下：
 >1. 使用Retrofit+Rxjava请求豆瓣电影API，获取“正在上映”和“即将上映”的电影数据。
 >2. 将数据通过两个Fragment以列表的形式进行展示，其中图片的显示使用Fresco进行加载。
@@ -45,24 +43,3 @@ gradle相关配置已按**Android Studio3.0**的要求进行更改，如果你�
 
 可以建多一个**other**包，用来存放Service，BroadcastReceiver，蓝牙，友盟等其他内容模块。<br>
 
-
-## 传送门
-
-各个模块介绍的传送门：
-
-[安卓开发框架（MVP+主流框架+基类+工具类）--- 开篇](http://www.jianshu.com/p/b714630bdf75)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- MVP模式](http://www.jianshu.com/p/1f91cfd68d48)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- Retrofit+RxJava](http://www.jianshu.com/p/092452f287db)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- GreenDAO](http://www.jianshu.com/p/11bdd9d761e6)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- Fresco](http://www.jianshu.com/p/5b5625612f56)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- EventBus](http://www.jianshu.com/p/6fb4d78db19b)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- ButterKnife](http://www.jianshu.com/p/5f89e3bd7fca)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- 基类](http://www.jianshu.com/p/3d9ee98a9570)<br>
-[安卓开发框架（MVP+主流框架+基类+工具类）--- 工具类](http://www.jianshu.com/p/d1361c3ea743)<br>
-
-
-
-
-<br>
-如有不当之处，可以提issue或者简书告诉我~ <br>
-如果觉得不错，欢迎 **star** 给我鼓励与支持，谢谢~
